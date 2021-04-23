@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding:0;
+    text-decoration: none;
+}
+
+body{
+   font-family: 'Ubuntu', sans-serif;
+}
+header{
+	background: #E7E2DF;
+}
+.container{
+	width: 100%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	overflow: hidden;
+	align-items: center;
+}
+
+
+.logo{
+	width: 5%;
+	flex: 0 1 auto;
+	padding: 5px;
+}
+
+.logo a img{
+	box-sizing: border-box;
+	max-width: 80%;
+	margin-left: 40px;
+}
+
+nav{
+    width: 90%;
+    flex: 0 1 auto;
+}
+
+nav ul{
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	justify-content: flex-end;
+}
+nav ul li{
+	flex: 0 1 auto;
+}
+
+nav ul li a{
+    padding: 15px;
+    font-size: 15px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    color: black;
+    background: #bab8ba;
+    margin-right: 10px;
+    font-weight: lighter;
+}
+
+
+section{
+	margin: 0;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.Red{
+	background: url(../images/a.jpg);
+	background-attachment: fixed;
+}
+.yellow{
+	background: url(../images/b.jpg);
+	background-attachment: fixed;
+}
+.green{
+	background: url(../images/c.jpg);
+	background-attachment: fixed;
+}
+.pink{
+	background: url(../images/d.jpg);
+	background-attachment: fixed;
+}
+.blue{
+	background: url(../images/e.jpg);
+	background-attachment: fixed;
+}
+
+
+
+section .container{
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	overflow: hidden;
+}
+
+.conleft{
+    width: 40%;
+    text-align: center;
+    padding-top: 280px;
+}
+.conleft h2{
+	font-size: 32px;
+	display: inline-block;
+	background: #3aff43;
+	padding: 20px;
+	box-sizing: border-box;
+	border-radius: 25px;}
+
+.conleft a{
+	font-size: 32px;
+	display: inline-block;
+	background: #8d0d0d;
+	padding: 20px;
+	box-sizing: border-box;
+	border-radius: 25px;
+	color: white;
+	margin: 10px;
+}
+.conRight{
+	max-width: 60%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.conRight h3{
+	box-sizing: border-box;
+	max-width: 60%;
+	padding: 45px 40px;
+	margin: auto;
+	padding-bottom: 330px;
+}
+
+.conRight p{
+	font-size: 24px;
+	max-width: 100%;
+	padding: 57px;
+	box-sizing: border-box;
+	border-radius: 30px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background: pink;
+}
